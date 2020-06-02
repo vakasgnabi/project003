@@ -34,4 +34,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build bootcamp_react_vakas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build bootcamp_react_vakas.surge.sh --token ${{ secrets.SURGE_REACT_TOKEN }}
